@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<script type='text/javascript' src="js/sportFrame01.js"></script>
+<script>
+window.onload=function(){
+    var oMain=document.getElementById('main');
+	var aImg=oMain.getElementsByTagName('img');
+	
+	for(var i=0;i<aImg.length;i++)
+	{
+		aImg[i].timer=null;
+		aImg[i].index=i;
+		
+		aImg[i].onmouseover=function(){
+		 sport(this,{opacity:100});
+		 aImg[0].src="images/startleft2.gif";
+		 aImg[1].src="images/startright2.gif";
+		};	
+		aImg[i].onmouseout=function(){
+		 sport(this,{opacity:20});
+		 aImg[0].src="images/startleft1.gif";
+		 aImg[1].src="images/startright1.gif";
+		 
+		};
+	}
+	
+};
+</script>
+<style>
+*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+body{
+	border-top:10px solid #CCFFFF;
+	border-bottom:10px solid #CCFFFF;
+	font-size:12px;
+	color:#999999;
+	background:url(images/top_bg.jpg);
+	}
+#box{
+	width:1000px;
+	height:639px;
+	margin:auto;
+}
+#logo{
+	width:120px;
+	height:50px;
+	margin:30px auto;
+	opacity:0.2;
+   alpha(opacity:20);
+}
+#main{
+	width:960px;
+	height:350px;
+	margin:auto;
+}
+#main img{
+	width:460px;
+	height:350px;
+	float:left;
+	margin-left:10px;
+	opacity:0.9;
+	}
+#box p{
+	width:150px;
+	height:2px;
+	clear:both;
+	display:block;
+	margin:30px auto;
+	color:#6600CC;
+	font-size:18px;
+	}
+</style>
+</head>
+
+<body>
+<div id='box'>
+<div id='logo'><img src="images/logo.jpg"></div>
+<div id='main'>
+<img src="images/startleft1.gif">
+<img style="opacity: 0.2"  src="images/startright1.gif">
+</div>
+<p>西部开源技术中心</p>
+</div>
+
+</body>
+</html>

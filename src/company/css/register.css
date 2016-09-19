@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding:0;
+    border:0;
+}
+.back{
+    background: rgb(255,254,254);
+}
+.bg{
+    line-height: 25px;
+    background:rgb(237,237,237);
+    /*background: rgb(255,254,254);*/
+}
+.navBack{
+    background:#9ACD32;
+    margin-bottom: 5px;
+}
+.bg span{
+    padding:5px;
+}
+.bodyBack{
+    margin-top: 5px;
+    background: rgb(255,254,254);
+}
+.font01{
+    font-size: 2em;
+    font-family: "·ÂÌå";
+    font-weight: 500;
+    line-height: 4em;
+}
+.font02{
+    color: #FFFFFF;
+    font-size: 2.2em;
+    text-align: center;
+}
+.font03{
+    font-family: "·ÂËÎ";
+    font-size: 1.5em;
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+.font04{
+    margin-left:-50px;
+    color:#ffffff;
+    line-height: 25px;
+    font-size: 12px;
+}
+.img01{margin-top: 25px;}
+.nav{
+    color:#FFFFFF;
+}
+.nav a {
+    color:rgb(254,254,244);
+    text-decoration: none;
+}
+.nav-pills li a:hover{
+    background: url("../images/meu-select.png");
+    background-position: center;
+    color: #FF8C00;
+}
+.intro{
+    padding-left:30px;
+    height:400px;
+    background-image: url("../images/about-1.png");
+}
+.intro-text{
+    margin: 30px 500px;
+}
+.botList{
+    height:35px;
+    margin-top: 20px;
+    background:rgb(148,136,36);
+    line-height: 35px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.botList ul{
+    list-style: none;
+}
+.botList ul li{
+    text-align: center;
+    margin-right:12px;
+    float:left;
+}
+.botList a{
+    display: inline-block;
+    /*border-radius: 3px;*/
+    color:rgb(254,254,244);
+    clear: left;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 5px;
+}
+.botList li a:hover{
+    background: rgb(197,181,44);
+    color: lightgray;
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    border-radius: 5px;
+}
+.bottom{
+    height:200px;
+    background-image:url("../images/about-2.png");
+    margin-top: 2px;
+}
+.bottom img{
+    width:1170px;
+}
+.search{
+    width:100px;
+    height:30px;
+    margin-top:5px;
+}
+.touch{
+    margin-left:-30px;
+    margin-top:13px;
+}
+.touch img{
+    margin-top:1px;
+    border-radius:5px;
+    width:50px;
+    height:50px;
+}
+.skill{
+    background-image: url("../images/about-2.png");
+    height:420px;
+    padding:30px;
+}
+.skill-intro{
+    margin-top:30px;
+    margin-left:35px;
+}
+.skill-text{
+    margin-top:15px;
+    margin-left:0;
+    text-align: justify;
+}
+.skill-intro .text-center{
+    margin-left:70px;
+}
+.event{
+    background-image: url(../images/about-3.png);
+    height:420px;
+    padding:30px;
+}
